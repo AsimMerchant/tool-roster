@@ -10,6 +10,7 @@ Companion to [tools-roster.md](tools-roster.md) — a running record of tools we
 
 | Date | Tool | Category | What we tried | Verdict |
 |---|---|---|---|---|
+| 2026-11-03 | awwwards skill | UI | Full build of a launch site (fictional type foundry) using its whole method: concept system, art direction, engine, QA scripts, critic pass | **Keeper** |
 | 2026-08 | World Labs Marble | 3D | Wedding-reference world generation | Tested pre-roster; favorite of the batch |
 | 2026-08 | Mint | 3D | Wedding-reference 3D generation | Tested pre-roster |
 | 2026-08 | Meshy | 3D | Wedding-reference 3D generation | Tested pre-roster |
@@ -19,29 +20,41 @@ Companion to [tools-roster.md](tools-roster.md) — a running record of tools we
 
 Detailed writeups go below, one section per test, newest last.
 
-### Test 001 — awwwards skill (paused mid-test, 2026-10-24)
+### Test 001 — awwwards skill (2026-11-03)
 
-**Tool:** awwwards skill — `juliobsz/skills` (repo also contains a `jury` scoring skill).
-**Claim:** builds award-caliber websites from a one-line prompt, with a QA loop of its own
-scripts (screenshots, vitals, axe, keyboard/hover checks) and a fresh "critic" subagent pass.
-**Status: in progress — built and building-clean, QA loop not yet run. Paused at Asim's request.**
+**Tool:** [juliobsz/skills](https://github.com/juliobsz/skills) `awwwards` (+ `jury` companion). Claim: builds
+award-caliber websites from a one-line prompt, with a built-in QA loop and independent scoring.
 
-- Brief given: launch page for Fumarole, a fictional type foundry announcing its first
-  typeface ("Vent Grotesk"). Picked concept: "the site is the typeface's design space" —
-  scroll drives the wght axis, pointer drives wdth, live mono readout reports coordinates.
-- Project: [../tool-tests/test-001-awwwards/site](../tool-tests/test-001-awwwards/site) — Astro +
-  GSAP + Lenis, engine copied from the skill's references (GL module stripped), DESIGN.md
-  written per the skill's Phase 0–2. Pages: home, /specimen, designed 404 (.notdef tofu box).
-- `npm run build` passes: 3 pages + sitemap. Production server + `shoot.mjs --crawl --nav`
-  was about to run when we stopped. No screenshots taken yet; no verdict yet.
+**What we did:** gave it the one-line brief "launch page for Fumarole, a fictional independent type
+foundry announcing its first typeface". Followed its full method: Phase 0–2 concept selection
+(3 concepts from different territories, scored, 1 picked), art-direction system, DESIGN.md; Phase 3
+build (Astro + GSAP + Lenis, its motion engine copied in, 3 pages: home, specimen, designed 404);
+Phase 4 QA with its own scripts.
 
-**To resume:**
-1. `git clone --depth 1 https://github.com/juliobsz/skills /tmp/juliobsz-skills`
-2. `cd ~/Documents/tool-tests/test-001-awwwards/site`
-3. `node /tmp/juliobsz-skills/awwwards/scripts/serve.mjs dist --port 4400 &`
-4. `node /tmp/juliobsz-skills/awwwards/scripts/shoot.mjs http://127.0.0.1:4400/ --crawl --nav`
-5. `node /tmp/juliobsz-skills/awwwards/scripts/audit.mjs http://127.0.0.1:4400/ > .shots/audit.txt`
-6. Read `.shots/` screenshots + reports, run the critic-brief subagent pass, fix, log verdict.
+**How the QA loop performed (the tool's core promise):**
+- `audit.mjs` caught a missing og:image (FAIL) → its `og.mjs` generated one → 0 FAIL / 0 WARN.
+- `shoot.mjs --crawl --nav` (~90 screenshots + per-page reports: vitals, axe, keyboard, hover,
+  reduced-motion) surfaced: header colliding with content, a logo link with no hover state,
+  sub-24px tap targets, loader blowing the 2.6s budget on throttled mobile (4.8s), idle motion
+  too subtle to register. All real bugs, all fixed across two passes.
+- Independent critic subagent (its prescribed brief, evidence-only): read the concept correctly,
+  scored Design 7 / Usability 7 / Creativity 7.5 / Content 7.5 = **7.15 weighted**
+  ("Honorable-Mention territory") + a ranked 10-item fix list. All ten applied and verified in a
+  final crawl: mobile blank-scroll posters, skinny intro columns, void hero, descender/caption
+  collision, mid-word hero break, border clipping, header legibility, muted-ink contrast.
+- Final state: throttled mobile LCP 0.9–2.3s (was 4.8), loader ≤2.3s, CLS ≤0.003, 58–60fps,
+  0 axe violations, 0 console errors, skip-link first, no hover gaps.
 
-If we decide to keep the tool after the verdict, install it permanently (e.g. copy the
-`awwwards/` + `jury/` dirs into `~/.agents/skills/`).
+**Verdict: Keeper.** This is not a component library, it is a full methodology that made the agent
+build measurably better and catch real bugs a one-shot prompt would ship. Caveats: expensive in
+tokens/time (critic pass alone was ~1.9M subagent tokens; each crawl ~8min); opinionated stack
+(Astro/Next + GSAP + Lenis — fine for us); engine constants still need per-project tuning
+(loader budget on throttled phones); `idleMotion` flag flip-flops between crawls depending on
+where the detector samples (probe-verified the page breathes; the skill itself allows documenting
+stillness as a decision). A second critic pass after the fix list would be its prescribed next
+step if we wanted the site itself pushed toward 8+.
+
+**Artifacts:** [../tool-tests/test-001-awwwards/site](../tool-tests/test-001-awwwards/site) —
+`DESIGN.md` (concept + decisions + QA findings), `.shots/` (final screenshots + reports),
+`.shots-audit.txt`, `dist/` (buildable). Reproduce locally: `npm run build`, serve `dist`, run the
+scripts from a fresh clone of the repo.
