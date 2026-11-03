@@ -7,15 +7,15 @@ The resources from the reel-radar directories and `ai-tools`, grouped by primary
 | AI coding agents and workflows | 30 |
 | Agent memory, research, and knowledge | 9 |
 | AI models and model access | 15 |
-| Developer tools and app infrastructure | 34 |
-| UI, web design, and inspiration | 51 |
+| Developer tools and app infrastructure | 37 |
+| UI, web design, and inspiration | 55 |
 | 3D worlds, models, and asset libraries | 28 |
-| Video, audio, and creative production | 34 |
+| Video, audio, and creative production | 37 |
 | Documents, productivity, and learning | 12 |
 | Security and OSINT | 8 |
 | Finance, trading, and business | 10 |
 
-**Total: 231 distinct resources.**
+**Total: 241 distinct resources.**
 
 ## AI coding agents and workflows
 
@@ -110,6 +110,7 @@ The resources from the reel-radar directories and `ai-tools`, grouped by primary
 | Instatic | Self-hosted visual CMS and site builder. | [Official source](https://github.com/CoreBunch/Instatic) |
 | Markdoc | Markdown-based authoring framework. | [Official source](https://github.com/markdoc/markdoc) |
 | Maxun | Web extraction and automation platform. | [Official source](https://github.com/getmaxun/maxun) |
+| NectarLink | Local, end-to-end encrypted Android-to-Windows link for notifications, messages, calls, clipboard, files, and screen mirroring. | [Official source](https://github.com/thtbee/nectarlink) |
 | Omarchy | Opinionated Arch Linux and Hyprland setup. | [Official source](https://github.com/omacom/omarchy) |
 | Open SaaS | Full-stack SaaS application starter. | [Official source](https://github.com/wasp-lang/open-saas) |
 | OpenPanel | Self-hostable product and web analytics. | [Official source](https://github.com/Openpanel-dev/openpanel) |
@@ -119,8 +120,10 @@ The resources from the reel-radar directories and `ai-tools`, grouped by primary
 | PocketBase | Single-binary backend with database, auth, files, and realtime features. | [Official source](https://github.com/pocketbase/pocketbase) |
 | Polar | Billing and monetization platform. | [Official source](https://github.com/polarsource/polar) |
 | Repolyze | Analyzes a repository's architecture, dependencies, and code quality. | [Official source](https://github.com/MxCorpIn/Repolyze) |
+| Satori | Converts HTML and CSS (JSX) into SVG, used for generated title cards and images. | [Official source](https://github.com/vercel/satori) |
 | Scrapling | Adaptive Python scraping and crawling framework. | [Official source](https://github.com/D4Vinci/Scrapling) |
 | Shapeshift | Turns one text input into task-specific interface cards. | [Official source](https://github.com/anishfn/shapeshift) |
+| tapflow | Self-hosted iOS and Android simulator streaming in the browser. | [Official source](https://www.tapflow.dev) |
 | TetherKit | Android USB tethering driver for macOS. | [Official source](https://github.com/XiaoMiku01/TetherKit) |
 | Tinycast | Native macOS launcher with clipboard history and hotkeys. | [Official source](https://github.com/abue-ammar/tinycast) |
 | Void | Open-source code editor; repository archived June 2026. | [Official source](https://github.com/voideditor/void) |
@@ -130,6 +133,7 @@ The resources from the reel-radar directories and `ai-tools`, grouped by primary
 | Name | Description | Link |
 |---|---|---|
 | A24 portfolio concept | Unofficial film-presentation design demo. | [Official source](https://a24.raviklaassens.com) |
+| anime.js | Lightweight JavaScript animation engine. | [Official source](https://animejs.com) |
 | awwwards skill | Agent skill that builds polished award-style websites from one prompt. | [Official source](https://github.com/juliobsz/skills) |
 | Aceternity UI | React and Tailwind component collection with motion and 3D effects. | [Official source](https://ui.aceternity.com) |
 | Anatomy | Agent skill for isometric technical illustrations and machine diagrams. | [Official source](https://github.com/wheresryan22/anatomy) |
@@ -166,7 +170,10 @@ The resources from the reel-radar directories and `ai-tools`, grouped by primary
 | MotionSites.ai | Prompt gallery for animated and 3D websites. | [Official source](https://motionsites.ai) |
 | OpenDesign | Local-first agent-driven design workspace with CLI and desktop interfaces. | [Official source](https://github.com/nexu-io/open-design) |
 | OriginKit | Free animated component library for React and Framer with MCP access. | [Official source](https://www.originkit.dev) |
+| React Bits | Free library of animated React components and backgrounds, installable through shadcn. | [Official source](https://reactbits.dev) |
+| ReactDrops | React component collection, including animated logo effects. | [Official source](https://reactdrops.dev) |
 | Refero Styles | AI-readable design-system references from real websites. | [Official source](https://styles.refero.design) |
+| Rive | Interactive animations that respond to state inside apps and sites. | [Official source](https://rive.app) |
 | screenshot-to-code | Creates prototype frontend code from screenshots and mockups. | [Official source](https://github.com/abi/screenshot-to-code) |
 | scroll-world | Skill for generating scrollable 3D website scenes. | [Official source](https://github.com/oso95/scroll-world) |
 | Shader Gradient | Configurable animated gradient tool and code. | [Official source](https://shadergradient.co) |
@@ -221,6 +228,7 @@ The resources from the reel-radar directories and `ai-tools`, grouped by primary
 | Animos | Templates that animate app screenshots and media into showcase videos. | [Official source](https://animos.app) |
 | Auto-Editor | Cuts silent or less interesting video/audio sections. | [Official source](https://github.com/WyattBlue/auto-editor) |
 | AutoShorts | Local-first long-video/audio to short-clip editor. | [Official source](https://github.com/JayWebtech/autoshorts) |
+| Bang Motion | Agent skill with rules and templates for motion graphics, for Claude Code, Codex, Gemini CLI, and Cursor. | [Official source](https://github.com/bangtutorial/bang-motion) |
 | brag | Agent skill that makes a short project launch video. | [Official source](https://github.com/latent-spaces/brag) |
 | Cap | Open-source screen recording and sharing app. | [Official source](https://github.com/CapSoftware/Cap) |
 | ComfyUI | Node-based image-generation interface and API. | [Official source](https://github.com/Comfy-Org/ComfyUI) |
@@ -231,12 +239,14 @@ The resources from the reel-radar directories and `ai-tools`, grouped by primary
 | fframes | Programmatic video framework using Rust and SVG. | [Official source](https://github.com/dmtrKovalenko/fframes) |
 | FreeVideo | Local MiniMax H3 video generation inside ComfyUI on consumer GPUs. | [Official source](https://github.com/FlashML-org/FreeVideo) |
 | Google Flow | AI filmmaking and creative workspace. | [Official source](https://flow.google.com) |
-| Hyperframes | Turns HTML and CSS compositions into rendered videos. | [Official source](https://hyperframes.heygen.com) |
+| huashu-motion | Agent skill that has a coding agent make short product launch films, with a click-to-edit browser editor. | [Official source](https://github.com/alchaincyf/huashu-motion) |
+| Hyperframes | Turns HTML and CSS compositions into rendered videos. The team's HyperFrames Studio editor ([hyperframes.dev](https://www.hyperframes.dev)) is a macOS app. | [Official source](https://hyperframes.heygen.com) |
 | Hypit | Reconstructs reference videos as editable AI workflows. | [Official source](https://github.com/hypit-ai/hypit) |
 | Kenney | Game art, sound, and UI asset library. | [Official source](https://kenney.nl) |
 | Kokoro | Open speech-synthesis model and inference code. | [Official source](https://github.com/hexgrad/kokoro) |
 | Krea 2 | Image model with published inference code and separately licensed weights. | [Official source](https://github.com/krea-ai/krea-2) |
 | MoneyPrinterTurbo | Automated short-video generation from a topic. | [Official source](https://github.com/harry0703/MoneyPrinterTurbo) |
+| Motion Canvas | TypeScript library and editor for code-driven animated videos. | [Official source](https://motioncanvas.io) |
 | Motion Skills | Installable agent skills for motion and video work. | [Official source](https://github.com/iart-ai/motion-skills) |
 | Onetake | Skill for a continuous-camera product launch video. | [Official source](https://github.com/feitangyuan/onetake) |
 | Open Generative AI | Client studio for image and video models; hosted inference may cost extra. | [Official source](https://github.com/anil-matcha/open-generative-ai) |
@@ -246,7 +256,7 @@ The resources from the reel-radar directories and `ai-tools`, grouped by primary
 | pic-smaller | In-browser batch image compression and conversion. | [Official source](https://github.com/joye61/pic-smaller) |
 | Postiz | Social-media scheduling and publishing platform. | [Official source](https://github.com/gitroomhq/postiz-app) |
 | Recordly | Cross-platform screen recorder and editor. | [Official source](https://github.com/webadderallorg/Recordly) |
-| Remotion | Programmatic video creation in React. | [Official source](https://github.com/remotion-dev/remotion) |
+| Remotion | Programmatic video creation in React; official agent skills install with `npx skills add remotion-dev/skills`. | [Official source](https://github.com/remotion-dev/remotion) |
 | Screen Studio | macOS screen recorder with automatic zoom and effects. | [Official source](https://screen.studio) |
 | Screenize | macOS recorder/editor with cursor effects; development paused. | [Official source](https://github.com/syi0808/screenize) |
 | VoiceStudio | Local voice cloning, dubbing, transcription, and audiobook tools. | [Official source](https://github.com/debpalash/VoiceStudio) |
@@ -307,6 +317,7 @@ The resources from the reel-radar directories and `ai-tools`, grouped by primary
 - 2026-10-20 additions: 20 rows from entries 70–114, each verified against its repo/site that day. Kept duplicates were not re-added: VoiceStudio, Hyperframes, Motion Primitives, diagram-design, Animos, Refero Styles, Hyper3D Rodin, Tripo (Tripo Studio), and Open-Higgsfield-AI (same repository as the existing Open Generative AI row). Spline is added as the main-tool row alongside its existing AI-feature rows.
 - Checked all 233 distinct links extracted from the earlier source files: 230 returned successful pages. The saved OpenAI Whisper model link and Omarchy ISO link returned 404; the Whisper row now points to [current official OpenAI documentation](https://developers.openai.com/api/docs/models/whisper-1). Fab returned 403 to the automated request, but its current marketplace role was verified through [Epic’s Fab documentation](https://dev.epicgames.com/documentation/en-us/fab/fab-documentation).
 - The October 3 CodeCraft price quote is stale; its current [pricing page](https://codecraftapi.com/pricing) differs. OpenDesign has changed significantly since its August assessment; its row reflects the current [project README](https://github.com/nexu-io/open-design).
+- 2026-11-03 additions: 10 rows from the Instagram "ai" collection (12 posts), each link checked that day: Bang Motion, huashu-motion, Motion Canvas, anime.js, Rive, React Bits, ReactDrops, Satori, NectarLink, tapflow. Kept duplicates were not re-added: Remotion (row now notes its agent skills), GSAP, Three.js, React Three Fiber, FFmpeg, GitSkins, VoiceStudio, and HyperFrames Studio (noted on the Hyperframes row).
 - Unnamed reel demos and offers without a verifiable project URL are excluded. The separate Hyperframes website/repository, pic-smaller web app/repository, Agency Agents app/repository, and Free LLM API service/router are represented by one main row each to avoid duplicates.
 
 ## Reel-radar provenance
@@ -334,6 +345,7 @@ preserves their remaining value so the folders can be deleted.
   public match dqnamo.com components), 105 (ArtCraft suite), 106 (document-to-explainer-
   video site — never identified), 108 (premium-website tools list — comment-gated), 109
   (UILORA, AnimMaster Lib — DM-gated), 112 (meme reel).
+- Collection "ai" run (2026-11-03) — https://www.instagram.com/asim.merchant/saved/ai/1633047141635812/ — post IDs: DfKJNWvjPgg, DfMuqjCJcAy, DfE9KLxsFmE, Dep83b7oDEb, Dey7OjuJ7pF, De7BoEPNeAy, DeyQg57pIvw, DfDzk-FNaYi, DbtEt6ZC1GJ, De1Ix4RknSK, De1zlGniBQp, DetCTmToK82. Not kept: Mercury Agent + Optimus, Orca, Mochiboard (macOS), the Android TV debloat prompt ("Your TV, Your Way." Google Doc), The Creator Stack (@pauloshimas, no public link), Gemini Omni, and 72pt (creator's own app ad). Antonio's "20 repos" reel showed only 10; the rest are comment-gated.
 - Claim corrections worth remembering: OriginKit is ~250+ components (the "600+, largest
   library" post claim was marketing); Motion Primitives was ~22.6k stars when vetted; the
   "54k stars" VoiceStudio post figure was stale (~78k at vetting); Hypit uses a custom
