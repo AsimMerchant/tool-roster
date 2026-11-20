@@ -4,18 +4,18 @@ The resources from the reel-radar directories and `ai-tools`, grouped by primary
 
 | Category | Entries |
 |---|---:|
-| AI coding agents and workflows | 30 |
-| Agent memory, research, and knowledge | 9 |
+| AI coding agents and workflows | 35 |
+| Agent memory, research, and knowledge | 12 |
 | AI models and model access | 15 |
-| Developer tools and app infrastructure | 37 |
-| UI, web design, and inspiration | 55 |
-| 3D worlds, models, and asset libraries | 28 |
-| Video, audio, and creative production | 37 |
-| Documents, productivity, and learning | 12 |
-| Security and OSINT | 8 |
-| Finance, trading, and business | 10 |
+| Developer tools and app infrastructure | 49 |
+| UI, web design, and inspiration | 58 |
+| 3D worlds, models, and asset libraries | 30 |
+| Video, audio, and creative production | 54 |
+| Documents, productivity, and learning | 14 |
+| Security and OSINT | 10 |
+| Finance, trading, and business | 12 |
 
-**Total: 241 distinct resources.**
+**Total: 289 distinct resources.**
 
 ## AI coding agents and workflows
 
@@ -23,6 +23,7 @@ The resources from the reel-radar directories and `ai-tools`, grouped by primary
 |---|---|---|
 | Agency Agents | Collection of specialist agent definitions and an optional browser app. | [Official source](https://github.com/msitarzewski/agency-agents) |
 | Alibaba Open Code Review | Rule and model based code review for changed files. | [Official source](https://github.com/alibaba/open-code-review) |
+| Anthropic Skills | Public repository of Anthropic's agent skills. | [Official source](https://github.com/anthropics/skills) |
 | Buzz | Communication platform for teams of agents. | [Official source](https://github.com/block/buzz) |
 | Cloudflare Security Audit Skill | Agent skill for phased security audits and structured findings. | [Official source](https://github.com/cloudflare/security-audit-skill) |
 | Codex Plugin for Claude Code | Runs Codex tasks and reviews from Claude Code. | [Official source](https://github.com/openai/codex-plugin-cc) |
@@ -37,17 +38,21 @@ The resources from the reel-radar directories and `ai-tools`, grouped by primary
 | Google ARTEMIS | Natural-language Android automation and testing agent with MCP support. | [Official source](https://github.com/google/artemis) |
 | Google AX | Orchestration runtime for sandboxed agents. | [Official source](https://github.com/google/ax) |
 | Grok Build | Terminal coding-agent harness. | [Official source](https://github.com/xai-org/grok-build) |
+| gstack | Garry Tan's opinionated Claude Code setup with role-based tools. | [Official source](https://github.com/garrytan/gstack) |
 | i-have-adhd | Skill for concise, action-first coding-agent responses. | [Official source](https://github.com/ayghri/i-have-adhd) |
 | Jev Ultrafast | Browser agent that makes indexed page decisions using a model API. | [Official source](https://github.com/browser-use/jev-ultrafast) |
 | Langflow | Visual builder for AI agents and workflows. | [Official source](https://github.com/langflow-ai/langflow) |
 | Laya | Local model for typed yes/no, choice, and score decisions. | [Official source](https://github.com/NandhaKishorM/laya) |
+| LoopForge | Self-hosted orchestration for coding-agent delivery workflows. | [Official source](https://github.com/Tencent/LoopForge) |
 | Marketing Skills | Agent skills for SEO, copywriting, conversion, and growth. | [Official source](https://github.com/coreyhaines31/marketingskills) |
+| modern-web-guidance | Skill keeping coding agents current on web best practices. | [Official source](https://github.com/GoogleChrome/modern-web-guidance) |
 | OpenHands | Software development agent platform. | [Official source](https://github.com/OpenHands/OpenHands) |
 | OpenRig | Coordinates persistent teams of coding agents. | [Official source](https://github.com/mvschwarz/openrig) |
 | OpenShell | Sandbox runtime for autonomous agents. | [Official source](https://github.com/NVIDIA/OpenShell) |
 | OpenWiki | CLI that maintains codebase documentation for agents. | [Official source](https://github.com/langchain-ai/openwiki) |
 | Paperclip | App for organizing agent roles, tasks, and budgets. | [Official source](https://github.com/paperclipai/paperclip) |
 | pxpipe | Experimental image rendering of text context to reduce prompt tokens; lossy. | [Official source](https://github.com/teamchong/pxpipe) |
+| stitch-skills | Agent skills for Google's Stitch design MCP server. | [Official source](https://github.com/google-labs-code/stitch-skills) |
 | Task Observer | Meta-skill that records task observations and proposes skill changes. | [Official source](https://github.com/rebelytics/one-skill-to-rule-them-all) |
 | universal-modder | Skills and knowledge base for coding agents to mod PC games. | [Official source](https://github.com/remhanremade/universal-modder) |
 | x-algorithm | Published code for X's For You ranking system; reference, not a standalone app. | [Official source](https://github.com/xai-org/x-algorithm) |
@@ -62,9 +67,12 @@ The resources from the reel-radar directories and `ai-tools`, grouped by primary
 | Hindsight | Long-term memory system for agents. | [Official source](https://github.com/vectorize-io/hindsight) |
 | Hyperresearch | Research collection, search, and synthesis workflow for coding agents. | [Official source](https://github.com/jordan-gibbs/hyperresearch) |
 | MemPalace | Local transcript storage and semantic retrieval. | [Official source](https://github.com/MemPalace/mempalace) |
+| MiroFish | Swarm-intelligence engine for predicting outcomes from seeded scenarios. | [Official source](https://github.com/666ghj/MiroFish) |
 | OpenGlean | Searches connected workspace files and knowledge. | [Official source](https://github.com/hydra-db/open-glean) |
 | OpenViking | Context database for agent memory, knowledge, and skills. | [Official source](https://github.com/volcengine/OpenViking) |
 | Vane (formerly Perplexica) | Self-hosted AI answer engine. | [Official source](https://github.com/ItzCrazyKns/Vane) |
+| Vindex | Compiles videos into structured JSON/Markdown knowledge for agents. | [Official source](https://github.com/vaibhav-space/vindex) |
+| WeKnora | Open-source document-to-RAG knowledge platform. | [Official source](https://github.com/Tencent/WeKnora) |
 
 ## AI models and model access
 
@@ -92,6 +100,7 @@ The resources from the reel-radar directories and `ai-tools`, grouped by primary
 |---|---|---|
 | Activepieces | Workflow automation platform with AI agent and MCP support. | [Official source](https://github.com/activepieces/activepieces) |
 | AdGuard Home | Self-hosted DNS server for network-wide ad and tracker blocking. | [Official source](https://github.com/AdguardTeam/AdGuardHome) |
+| AG-UI | Agent-User Interaction protocol for embedding agents in frontends. | [Official source](https://github.com/ag-ui-protocol/ag-ui) |
 | Agent Reach | CLI layer for agents to search and read websites and social platforms. | [Official source](https://github.com/Panniantong/Agent-Reach) |
 | Apache Cloudberry | Massively parallel analytics database. | [Official source](https://github.com/apache/cloudberry) |
 | Appwrite | Backend services for web and mobile applications. | [Official source](https://github.com/appwrite/appwrite) |
@@ -99,17 +108,23 @@ The resources from the reel-radar directories and `ai-tools`, grouped by primary
 | Browser Harness | Browser integration layer for AI agents. | [Official source](https://github.com/browser-use/browser-harness) |
 | Browser Use | Framework for agents to navigate and operate a browser. | [Official source](https://github.com/browser-use/browser-use) |
 | Camofox Browser | Browser API for agent automation. | [Official source](https://github.com/jo-inc/camofox-browser) |
+| check-if-email-exists | Email existence verification via SMTP/DNS checks without sending mail. | [Official source](https://github.com/reacherhq/check-if-email-exists) |
+| CLI-Anything | Generates CLI interfaces so any software becomes agent-usable. | [Official source](https://github.com/HKUDS/CLI-Anything) |
 | code-server | Runs VS Code in a browser. | [Official source](https://github.com/coder/code-server) |
 | CoreDeck | Desktop manager for Android SDKs and emulators. | [Official source](https://github.com/devmuaz/CoreDeck) |
 | Crawl4AI | Web crawler that produces Markdown and structured data for AI pipelines. | [Official source](https://github.com/unclecode/crawl4ai) |
 | dbx | Cross-platform database client with GUI, CLI, and MCP support. | [Official source](https://github.com/t8y2/dbx) |
 | Explain GitHub | AI explanations and diagrams for repositories. | [Official source](https://explaingithub.com) |
+| FluxDown | Multi-protocol Rust download manager with dynamic segmentation, browser capture, CLI, headless server and MCP; Arch package published. | [Official source](https://github.com/zerx-lab/FluxDown) |
+| FreeDomain | Free domain-name registration project. | [Official source](https://github.com/DigitalPlatDev/FreeDomain) |
 | GitHub1s | VS Code-like browser view of a GitHub repository. | [Official source](https://github1s.com) |
 | GitReverse | Converts a repository or website into a reusable prompt. | [Official source](https://www.gitreverse.com) |
 | GitTrend | Trending GitHub repository discovery. | [Official source](https://gittrend.io) |
 | Instatic | Self-hosted visual CMS and site builder. | [Official source](https://github.com/CoreBunch/Instatic) |
+| LibrePods | AirPods features on Android and Linux. | [Official source](https://github.com/librepods-org/librepods) |
 | Markdoc | Markdown-based authoring framework. | [Official source](https://github.com/markdoc/markdoc) |
 | Maxun | Web extraction and automation platform. | [Official source](https://github.com/getmaxun/maxun) |
+| Mister Download Manager | Clean-room Rust download manager with multi-connection transfers and torrents; IDM alternative. | [Official source](https://github.com/anefzaoui/misterdownloadmanager) |
 | NectarLink | Local, end-to-end encrypted Android-to-Windows link for notifications, messages, calls, clipboard, files, and screen mirroring. | [Official source](https://github.com/thtbee/nectarlink) |
 | Omarchy | Opinionated Arch Linux and Hyprland setup. | [Official source](https://github.com/omacom/omarchy) |
 | Open SaaS | Full-stack SaaS application starter. | [Official source](https://github.com/wasp-lang/open-saas) |
@@ -120,13 +135,18 @@ The resources from the reel-radar directories and `ai-tools`, grouped by primary
 | PocketBase | Single-binary backend with database, auth, files, and realtime features. | [Official source](https://github.com/pocketbase/pocketbase) |
 | Polar | Billing and monetization platform. | [Official source](https://github.com/polarsource/polar) |
 | Repolyze | Analyzes a repository's architecture, dependencies, and code quality. | [Official source](https://github.com/MxCorpIn/Repolyze) |
+| rust-anything | Incrementally rewrites an app in Rust, checked against the original. | [Official source](https://github.com/erkamyaman/rust-anything) |
 | Satori | Converts HTML and CSS (JSX) into SVG, used for generated title cards and images. | [Official source](https://github.com/vercel/satori) |
 | Scrapling | Adaptive Python scraping and crawling framework. | [Official source](https://github.com/D4Vinci/Scrapling) |
 | Shapeshift | Turns one text input into task-specific interface cards. | [Official source](https://github.com/anishfn/shapeshift) |
 | tapflow | Self-hosted iOS and Android simulator streaming in the browser. | [Official source](https://www.tapflow.dev) |
 | TetherKit | Android USB tethering driver for macOS. | [Official source](https://github.com/XiaoMiku01/TetherKit) |
 | Tinycast | Native macOS launcher with clipboard history and hotkeys. | [Official source](https://github.com/abue-ammar/tinycast) |
+| Univer | SDK for building AI office suites (sheets, docs, slides). | [Official source](https://github.com/dream-num/univer) |
+| unkernel | Linux kernel compiled to WebAssembly; boots a shell in a browser tab. | [Official source](https://github.com/pithings/unkernel) |
 | Void | Open-source code editor; repository archived June 2026. | [Official source](https://github.com/voideditor/void) |
+| windows95 | Windows 95 as an Electron desktop app. | [Official source](https://github.com/felixrieseberg/windows95) |
+| witr | CLI that explains why a given process is running. | [Official source](https://github.com/pranshuparmar/witr) |
 
 ## UI, web design, and inspiration
 
@@ -138,6 +158,7 @@ The resources from the reel-radar directories and `ai-tools`, grouped by primary
 | Aceternity UI | React and Tailwind component collection with motion and 3D effects. | [Official source](https://ui.aceternity.com) |
 | Anatomy | Agent skill for isometric technical illustrations and machine diagrams. | [Official source](https://github.com/wheresryan22/anatomy) |
 | Animate UI | Animated React components distributed as editable code; MIT + Commons Clause (no reselling or redistributing the components), unmaintained since December 2025. | [Official source](https://github.com/imskyleen/animate-ui) |
+| Astryx | Meta's open-source, agent-ready design system with CLI. | [Official source](https://github.com/meta/astryx) |
 | Awesome Design Tools | Curated directory of design tools and plugins. | [Official source](https://github.com/goabstract/Awesome-Design-Tools) |
 | Awesome DESIGN.md | Collection of design-system examples for AI-built interfaces. | [Official source](https://github.com/VoltAgent/awesome-design-md) |
 | Awesome Web Desktops | Gallery of sites styled like desktop operating systems. | [Official source](https://github.com/syxanash/awesome-web-desktops) |
@@ -174,9 +195,11 @@ The resources from the reel-radar directories and `ai-tools`, grouped by primary
 | ReactDrops | React component collection, including animated logo effects. | [Official source](https://reactdrops.dev) |
 | Refero Styles | AI-readable design-system references from real websites. | [Official source](https://styles.refero.design) |
 | Rive | Interactive animations that respond to state inside apps and sites. | [Official source](https://rive.app) |
+| Sakuga VFX | Anime-style reactive UI controls, one file each, no dependencies. | [Official source](https://github.com/finktheartist/sakuga-vfx) |
 | screenshot-to-code | Creates prototype frontend code from screenshots and mockups. | [Official source](https://github.com/abi/screenshot-to-code) |
 | scroll-world | Skill for generating scrollable 3D website scenes. | [Official source](https://github.com/oso95/scroll-world) |
 | Shader Gradient | Configurable animated gradient tool and code. | [Official source](https://shadergradient.co) |
+| SVG.js | Lightweight library for manipulating and animating SVG. | [Official source](https://github.com/svgdotjs/svg.js) |
 | Swishy | Web app for UI-element animations from templates. | [Official source](https://swishy.ai) |
 | Taste Skill | Frontend design guidance for coding agents. | [Official source](https://github.com/Leonxlnx/taste-skill) |
 | The Bézier Game | Interactive pen-tool practice. | [Official source](https://bezier.method.ac) |
@@ -197,7 +220,9 @@ The resources from the reel-radar directories and `ai-tools`, grouped by primary
 | Fab | Marketplace for 3D models and other digital assets; searched for wedding assets. | [Official source](https://www.fab.com) |
 | Google Project Genie | Experimental create-and-explore world prototype; not tested with wedding references. | [Official source](https://labs.google/projectgenie) |
 | Hyper3D Rodin | AI 3D asset generator; not tested with wedding references. | [Official source](https://hyper3d.ai) |
+| image-blaster | Image-to-3D-world skillset for Claude. | [Official source](https://github.com/neilsonnn/image-blaster) |
 | img2threejs | Generates procedural Three.js model code from a reference image. | [Official source](https://github.com/img2threejs/img2threejs) |
+| Intangible | Browser-based AI 3D studio with prompt-to-scene and camera control. | [Official source](https://www.intangible.ai) |
 | MANI Engine | AI spatial/world creation engine; not tested with wedding references. | [Official source](https://maniengine.com) |
 | Meshy | Text/image-to-3D model generation; tested with wedding references. | [Official source](https://www.meshy.ai) |
 | Mint | Generates and edits 3D models from prompts and images; tested with wedding references. | [Official source](https://mint.gg) |
@@ -226,18 +251,23 @@ The resources from the reel-radar directories and `ai-tools`, grouped by primary
 | Name | Description | Link |
 |---|---|---|
 | Animos | Templates that animate app screenshots and media into showcase videos. | [Official source](https://animos.app) |
+| ArtCraft | Crafting engine for artists, designers, and filmmakers. | [Official source](https://github.com/storytold/artcraft) |
 | Auto-Editor | Cuts silent or less interesting video/audio sections. | [Official source](https://github.com/WyattBlue/auto-editor) |
 | AutoShorts | Local-first long-video/audio to short-clip editor. | [Official source](https://github.com/JayWebtech/autoshorts) |
 | Bang Motion | Agent skill with rules and templates for motion graphics, for Claude Code, Codex, Gemini CLI, and Cursor. | [Official source](https://github.com/bangtutorial/bang-motion) |
 | brag | Agent skill that makes a short project launch video. | [Official source](https://github.com/latent-spaces/brag) |
 | Cap | Open-source screen recording and sharing app. | [Official source](https://github.com/CapSoftware/Cap) |
+| code-animation-prompts | 341 code-animation styles as a Claude Code/Codex skill; docs mostly Chinese; no-resale license. | [Official source](https://github.com/XiaoyeCodes/code-animation-prompts) |
 | ComfyUI | Node-based image-generation interface and API. | [Official source](https://github.com/Comfy-Org/ComfyUI) |
 | ElevenLabs | AI voice, dubbing, music, and sound tools. | [Official source](https://elevenlabs.io) |
+| Effekseer | Particle-effect editor and runtime for games and VFX. | [Official source](https://github.com/effekseer/Effekseer) |
 | Ende | Royalty-free music catalog with attribution terms. | [Official source](https://ende.app) |
 | FFmpeg | Command-line audio and video processing toolkit. | [Official source](https://ffmpeg.org) |
 | ff-tracking | Procedural video generator that films terminal typing with a virtual camera. | [Official source](https://github.com/mrsarac/ff-tracking) |
 | fframes | Programmatic video framework using Rust and SVG. | [Official source](https://github.com/dmtrKovalenko/fframes) |
+| FreeMoCap | Markerless 3D motion capture from ordinary cameras. | [Official source](https://github.com/freemocap/freemocap) |
 | FreeVideo | Local MiniMax H3 video generation inside ComfyUI on consumer GPUs. | [Official source](https://github.com/FlashML-org/FreeVideo) |
+| Friction | Open-source 2D motion-graphics and animation tool. | [Official source](https://github.com/friction2d/friction) |
 | Google Flow | AI filmmaking and creative workspace. | [Official source](https://flow.google.com) |
 | huashu-motion | Agent skill that has a coding agent make short product launch films, with a click-to-edit browser editor. | [Official source](https://github.com/alchaincyf/huashu-motion) |
 | Hyperframes | Turns HTML and CSS compositions into rendered videos. The team's HyperFrames Studio editor ([hyperframes.dev](https://www.hyperframes.dev)) is a macOS app. | [Official source](https://hyperframes.heygen.com) |
@@ -245,20 +275,32 @@ The resources from the reel-radar directories and `ai-tools`, grouped by primary
 | Kenney | Game art, sound, and UI asset library. | [Official source](https://kenney.nl) |
 | Kokoro | Open speech-synthesis model and inference code. | [Official source](https://github.com/hexgrad/kokoro) |
 | Krea 2 | Image model with published inference code and separately licensed weights. | [Official source](https://github.com/krea-ai/krea-2) |
+| lemo-opuscar | Film-style toolbox for Claude Code with 99 ready-made styles. | [Official source](https://github.com/lemomo-ai/lemo-opuscar) |
+| Maestro | Fully local AI video, image, and music studio with director mode. | [Official source](https://github.com/Blizaine/Maestro) |
 | MoneyPrinterTurbo | Automated short-video generation from a topic. | [Official source](https://github.com/harry0703/MoneyPrinterTurbo) |
 | Motion Canvas | TypeScript library and editor for code-driven animated videos. | [Official source](https://motioncanvas.io) |
 | Motion Skills | Installable agent skills for motion and video work. | [Official source](https://github.com/iart-ai/motion-skills) |
+| Natron | Node-based open-source VFX compositor. | [Official source](https://github.com/NatronGitHub/Natron) |
 | Onetake | Skill for a continuous-camera product launch video. | [Official source](https://github.com/feitangyuan/onetake) |
 | Open Generative AI | Client studio for image and video models; hosted inference may cost extra. | [Official source](https://github.com/anil-matcha/open-generative-ai) |
 | Open-LLM-VTuber | Voice-interactive Live2D avatar for local or remote LLMs. | [Official source](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber) |
 | OpenAI Whisper API | Hosted speech recognition model; current official docs replace the saved dead link. | [Official source](https://developers.openai.com/api/docs/models/whisper-1) |
+| OpenChatCut | Local-first conversational AI video editor. | [Official source](https://github.com/0xsline/OpenChatCut) |
 | OpenMontage | Agentic video-production system. | [Official source](https://github.com/calesthio/OpenMontage) |
+| OpenToonz | 2D animation production studio. | [Official source](https://github.com/opentoonz/opentoonz) |
+| OpenVDB | Volumetric data library for smoke and fire effects. | [Official source](https://github.com/AcademySoftwareFoundation/openvdb) |
+| Pear Desktop | Ad-free YouTube Music desktop client. | [Official source](https://github.com/pear-devs/pear-desktop) |
+| Pencil2D | Simple 2D hand-drawn animation tool. | [Official source](https://github.com/pencil2d/pencil) |
 | pic-smaller | In-browser batch image compression and conversion. | [Official source](https://github.com/joye61/pic-smaller) |
 | Postiz | Social-media scheduling and publishing platform. | [Official source](https://github.com/gitroomhq/postiz-app) |
 | Recordly | Cross-platform screen recorder and editor. | [Official source](https://github.com/webadderallorg/Recordly) |
 | Remotion | Programmatic video creation in React; official agent skills install with `npx skills add remotion-dev/skills`. | [Official source](https://github.com/remotion-dev/remotion) |
 | Screen Studio | macOS screen recorder with automatic zoom and effects. | [Official source](https://screen.studio) |
 | Screenize | macOS recorder/editor with cursor effects; development paused. | [Official source](https://github.com/syi0808/screenize) |
+| stick-scene | Skill that draws stick-figure animated explainer visuals. | [Official source](https://github.com/nilbuild/stick-scene) |
+| Synfig Studio | 2D vector animation studio. | [Official source](https://github.com/synfig/synfig) |
+| Theatre.js | Motion-design animation tooling for the web. | [Official source](https://github.com/theatre-js/theatre) |
+| video-shotcraft | Cinematic, editable product-promo video skill for Claude Code/Codex. | [Official source](https://github.com/Vincentwei1021/video-shotcraft) |
 | VoiceStudio | Local voice cloning, dubbing, transcription, and audiobook tools. | [Official source](https://github.com/debpalash/VoiceStudio) |
 | whisper.cpp | Local C/C++ speech transcription engine. | [Official source](https://github.com/ggml-org/whisper.cpp) |
 | yt-dlp | Command-line audio and video downloader. | [Official source](https://github.com/yt-dlp/yt-dlp) |
@@ -277,6 +319,8 @@ The resources from the reel-radar directories and `ai-tools`, grouped by primary
 | MarkItDown | Converts files and Office documents to Markdown. | [Official source](https://github.com/microsoft/markitdown) |
 | Mimik | Browser extension that records workflows as annotated guides. | [Official source](https://github.com/westpoint-io/mimik) |
 | MinerU | Parses PDF and Office documents into structured Markdown or JSON. | [Official source](https://github.com/opendatalab/MinerU) |
+| ppt-master | Turns documents or topics into native, editable PowerPoint decks. | [Official source](https://github.com/hugohe3/ppt-master) |
+| Slide-maker | Skill turning papers, code, and docs into editable PPTX. | [Official source](https://github.com/addsumtech/slides_maker) |
 | SlopMonster | Agent skill that scores and rewrites AI-writing patterns. | [Official source](https://github.com/ItsssssJack/SlopMonster) |
 | Unlimited-OCR | Research OCR model for long-form document parsing. | [Official source](https://github.com/baidu/Unlimited-OCR) |
 
@@ -287,10 +331,12 @@ The resources from the reel-radar directories and `ai-tools`, grouped by primary
 | Android PIN Bruteforce | USB HID based Android PIN testing project. | [Official source](https://github.com/TR-TECH-GUIDE/Android-PIN-Bruteforce) |
 | ESP32-BlueJammer | Research project for 2.4 GHz wireless interference. | [Official source](https://github.com/EmenstaNougat/ESP32-BlueJammer) |
 | GhidraGPT | LLM-assisted reverse-engineering plugin for Ghidra. | [Official source](https://github.com/weirdmachine64/GhidraGPT) |
+| gods-eye-view | Live planes, ships, and satellites on a 3D globe from open data. | [Official source](https://github.com/bilawalsidhu/gods-eye-view) |
 | HackTricks | Security techniques and reference wiki. | [Official source](https://github.com/HackTricks-wiki/hacktricks) |
 | Mr.Holmes | OSINT investigation toolkit. | [Official source](https://github.com/Lucksi/Mr.Holmes) |
 | PentesterFlow | Agentic penetration-testing workflow for authorized assessments. | [Official source](https://github.com/PentesterFlow/agent) |
 | Shadowbroker | Geospatial and flight-tracking OSINT platform. | [Official source](https://github.com/BigBodyCobain/Shadowbroker) |
+| Sherlock | Username hunt across hundreds of social networks. | [Official source](https://github.com/sherlock-project/sherlock) |
 | User Scanner | Username and email OSINT tool. | [Official source](https://github.com/kaifcodec/user-scanner) |
 
 ## Finance, trading, and business
@@ -301,10 +347,12 @@ The resources from the reel-radar directories and `ai-tools`, grouped by primary
 | Awesome Quant | Curated quantitative-finance resources. | [Official source](https://github.com/wilsonfreitas/awesome-quant) |
 | Awesome Systematic Trading | Curated systematic-trading resources. | [Official source](https://github.com/paperswithbacktest/awesome-systematic-trading) |
 | Claude Ads | Agent skill for auditing and planning paid-media campaigns. | [Official source](https://github.com/AgriciDaniel/claude-ads) |
+| claude-trading-skills | Claude Code skills for equity analysis and trading research. | [Official source](https://github.com/tradermonty/claude-trading-skills) |
 | Fincept Terminal | Financial research and market analytics desktop app. | [Official source](https://github.com/Fincept-Corporation/FinceptTerminal) |
 | Finnhub | Financial market-data API. | [Official source](https://finnhub.io) |
 | Invoice Builder | Desktop invoicing and quotation app with PDF export. | [Official source](https://github.com/piratuks/invoice-builder) |
 | OpenStock | Self-hostable stock tracker with watchlists, alerts, and charts. | [Official source](https://github.com/Open-Dev-Society/OpenStock) |
+| Sure | Self-hosted personal-finance dashboard; community fork of Maybe. | [Official source](https://github.com/we-promise/sure) |
 | TradingView widgets | Embeddable market charts and widgets. | [Official source](https://www.tradingview.com/widget) |
 | Vibe-Trading | Agent-assisted quant research and backtesting. | [Official source](https://github.com/HKUDS/Vibe-Trading) |
 
@@ -319,6 +367,18 @@ The resources from the reel-radar directories and `ai-tools`, grouped by primary
 - The October 3 CodeCraft price quote is stale; its current [pricing page](https://codecraftapi.com/pricing) differs. OpenDesign has changed significantly since its August assessment; its row reflects the current [project README](https://github.com/nexu-io/open-design).
 - 2026-11-03 additions: 10 rows from the Instagram "ai" collection (12 posts), each link checked that day: Bang Motion, huashu-motion, Motion Canvas, anime.js, Rive, React Bits, ReactDrops, Satori, NectarLink, tapflow. Kept duplicates were not re-added: Remotion (row now notes its agent skills), GSAP, Three.js, React Three Fiber, FFmpeg, GitSkins, VoiceStudio, and HyperFrames Studio (noted on the Hyperframes row).
 - Unnamed reel demos and offers without a verifiable project URL are excluded. The separate Hyperframes website/repository, pic-smaller web app/repository, Agency Agents app/repository, and Free LLM API service/router are represented by one main row each to avoid duplicates.
+- 2026-11-20 additions: 48 rows from the Instagram "ai" collection (19 posts, all saved after the
+  2026-11-03 run); every link checked that day. Provenance, discards and flags live in
+  `insta-saved-candidates-2026-11-20.md`. Kept duplicates were not re-added: ChatGPT, Google Flow,
+  anime.js, VoiceStudio, Hyperframes, Hallmark, colibri, Paperclip, diagram-design, ECC, Alibaba
+  Open Code Review, Remotion, FFmpeg, Whisper, yt-dlp. Discarded on review: T3 Code, OpenMausBot,
+  pinchtab, VERT, BambooAI, antialgorithm, founder-skill, claude-mem, ggml, chrome-devtools-mcp,
+  plannotator; andrej-karpathy-skills is already adopted in `~/.qwen/AGENTS.md`. ArtCraft and
+  MiroFish were re-added by user decision despite the 2026-10-20 not-kept entries, and
+  anthropics/skills despite the August agent-setup judgment. FluxDown (fluxdown.com) added at user
+  request after an initial misidentification as Hactor00/Flux was corrected. Still excluded: two
+  DM-gated offers without public URLs, and romspedia.com (ROM copyright caution, no fitting
+  category).
 
 ## Reel-radar provenance
 
