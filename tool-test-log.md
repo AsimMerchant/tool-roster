@@ -10,6 +10,7 @@ Companion to [tools-roster.md](tools-roster.md) — a running record of tools we
 
 | Date | Tool | Category | What we tried | Verdict |
 |---|---|---|---|---|
+| 2026-11-03 | Remotion | Video | Produced the Fumarole demo video: captured a scripted run of the live page, composed it in React, rendered MP4 with Remotion's renderer | **Solid** |
 | 2026-11-03 | awwwards skill | UI | Full build of a launch site (fictional type foundry) using its whole method: concept system, art direction, engine, QA scripts, critic pass | **Keeper** |
 | 2026-08 | World Labs Marble | 3D | Wedding-reference world generation | Tested pre-roster; favorite of the batch |
 | 2026-08 | Mint | 3D | Wedding-reference 3D generation | Tested pre-roster |
@@ -54,7 +55,39 @@ where the detector samples (probe-verified the page breathes; the skill itself a
 stillness as a decision). A second critic pass after the fix list would be its prescribed next
 step if we wanted the site itself pushed toward 8+.
 
-**Artifacts:** [../tool-tests/test-001-awwwards/site](../tool-tests/test-001-awwwards/site) —
-`DESIGN.md` (concept + decisions + QA findings), `.shots/` (final screenshots + reports),
-`.shots-audit.txt`, `dist/` (buildable). Reproduce locally: `npm run build`, serve `dist`, run the
-scripts from a fresh clone of the repo.
+**Artifacts:** torn down at Asim's request after Test 002 recorded its demo (2026-11-03). The
+project, `.shots/`, `dist/` and the server are deleted; what survives is the demo video
+(see Test 002) and this entry. Reproducible from this entry + a fresh clone of the skill repo.
+
+### Test 002 — Remotion (2026-11-03)
+
+**Tool:** [remotion-dev/remotion](https://www.remotion.dev) v4.0.540. Claim: programmatic video
+creation in React.
+
+**What we did:** produced the demo video for the Test 001 site. Pipeline: Playwright drove a
+scripted tour of the live page (loader → scroll-driven weight interpolation → pointer width sweep →
+weights-row hovers → poster cursor follower → footer → page transition to /specimen → back → the
+404 outro) and recorded footage; Remotion then did the video production — a 1440×900/30fps React
+composition (`Composition` + `OffthreadVideo` + `interpolate`) with a title card over the loader,
+master fades, and the final encode via `npx remotion render`.
+
+**Result:** [../fumarole-demo.mp4](../fumarole-demo.mp4) — 33.6 s, 1440×900, h264, 4.4 MB. Frames
+verified: title card over the ink loader, the hero demonstrably at wght 903 mid-interpolation, the
+.notdef 404 outro before the fade.
+
+**Friction found:** the Playwright capture needed its own ffmpeg build plus a browser reinstall
+(the Playwright cache had been wiped mid-session by something outside this session); Remotion
+downloaded its own Chrome Headless Shell (~100 MB, self-managed); two small bundler trips
+(`package.json` defaults to CommonJS → set `"type": "module"`, then explicit import extensions
+required); render of 1009 frames took ~3 min on this machine. Off-screen-header clicks during
+capture were the site's own frame-away design, not Remotion.
+
+**Verdict: Solid.** It did exactly what it claims for the exercised slice: composition in React is
+a pleasant, small API surface, and the render pipeline is self-contained and fast enough. Not
+**Keeper** yet because its headline use — authoring animations natively in React rather than
+compositing captured footage — is untested here; that would be its own test. Worth reaching for
+when we need programmatic video again.
+
+**Teardown:** the Test 001 site project, the Remotion scratch project, the QA server and the temp
+skill clone were all deleted after the final MP4 was moved to `tool-tests/`. Only the video and
+this log survive, per Asim's instruction.
