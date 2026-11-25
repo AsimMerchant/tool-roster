@@ -4,24 +4,25 @@ The resources from the reel-radar directories and `ai-tools`, grouped by primary
 
 | Category | Entries |
 |---|---:|
-| AI coding agents and workflows | 35 |
+| AI coding agents and workflows | 38 |
 | Agent memory, research, and knowledge | 12 |
 | AI models and model access | 15 |
-| Developer tools and app infrastructure | 49 |
-| UI, web design, and inspiration | 58 |
-| 3D worlds, models, and asset libraries | 30 |
-| Video, audio, and creative production | 54 |
-| Documents, productivity, and learning | 14 |
+| Developer tools and app infrastructure | 51 |
+| UI, web design, and inspiration | 70 |
+| 3D worlds, models, and asset libraries | 31 |
+| Video, audio, and creative production | 61 |
+| Documents, productivity, and learning | 17 |
 | Security and OSINT | 10 |
-| Finance, trading, and business | 12 |
+| Finance, trading, and business | 13 |
 
-**Total: 289 distinct resources.**
+**Total: 318 distinct resources.**
 
 ## AI coding agents and workflows
 
 | Name | Description | Link |
 |---|---|---|
 | Agency Agents | Collection of specialist agent definitions and an optional browser app. | [Official source](https://github.com/msitarzewski/agency-agents) |
+| agent-desktop | Computer-use CLI letting agents drive desktop apps via the accessibility tree. | [Official source](https://github.com/vercel-labs/agent-desktop) |
 | Alibaba Open Code Review | Rule and model based code review for changed files. | [Official source](https://github.com/alibaba/open-code-review) |
 | Anthropic Skills | Public repository of Anthropic's agent skills. | [Official source](https://github.com/anthropics/skills) |
 | Buzz | Communication platform for teams of agents. | [Official source](https://github.com/block/buzz) |
@@ -29,10 +30,12 @@ The resources from the reel-radar directories and `ai-tools`, grouped by primary
 | Codex Plugin for Claude Code | Runs Codex tasks and reviews from Claude Code. | [Official source](https://github.com/openai/codex-plugin-cc) |
 | context-mode | Indexes and compresses tool output and session context for agents. | [Official source](https://github.com/mksglu/context-mode) |
 | Coucou | Mac and iPhone coding-agent session monitor with approval prompts. | [Official source](https://github.com/Louis-CFM/coucou) |
+| Craft Anything | Skill that studies an app or site, then your coding agent builds its own version (alpha). | [Official source](https://github.com/storytold/craft-anything) |
 | DeepSeek Harness | Plugin-based coding-agent harness. | [Official source](https://github.com/deepseek-ai/deepseek-harness) |
 | Dify | Collaborative platform for AI apps, agents, and RAG workflows. | [Official source](https://github.com/langgenius/dify) |
 | ECC | Coding-agent skills, workflows, memory, and configuration checks. | [Official source](https://github.com/affaan-m/ECC) |
 | Foreman | Supervisor for coding agents with checkpoints. | [Official source](https://github.com/thruwire/foreman) |
+| Game Studios | Template turning one Claude Code session into a 49-agent game dev studio. | [Official source](https://github.com/Donchitos/Claude-Code-Game-Studios) |
 | Get-Shit-Done | Spec-driven coding-agent workflow. | [Official source](https://github.com/open-gsd/gsd-core) |
 | Google Antigravity | Agent-based development platform. | [Official source](https://antigravity.google) |
 | Google ARTEMIS | Natural-language Android automation and testing agent with MCP support. | [Official source](https://github.com/google/artemis) |
@@ -120,6 +123,8 @@ The resources from the reel-radar directories and `ai-tools`, grouped by primary
 | GitHub1s | VS Code-like browser view of a GitHub repository. | [Official source](https://github1s.com) |
 | GitReverse | Converts a repository or website into a reusable prompt. | [Official source](https://www.gitreverse.com) |
 | GitTrend | Trending GitHub repository discovery. | [Official source](https://gittrend.io) |
+| Godot | Multi-platform 2D and 3D game engine. | [Official source](https://github.com/godotengine/godot) |
+| google-maps-scraper | Scrapes Google Maps listings: names, addresses, phones, websites. | [Official source](https://github.com/gosom/google-maps-scraper) |
 | Instatic | Self-hosted visual CMS and site builder. | [Official source](https://github.com/CoreBunch/Instatic) |
 | LibrePods | AirPods features on Android and Linux. | [Official source](https://github.com/librepods-org/librepods) |
 | Markdoc | Markdown-based authoring framework. | [Official source](https://github.com/markdoc/markdoc) |
@@ -172,6 +177,7 @@ The resources from the reel-radar directories and `ai-tools`, grouped by primary
 | diagram-design | Agent skill for visually consistent diagrams. | [Official source](https://github.com/cathrynlavery/diagram-design) |
 | Feather | Interactive inbox design concept and inspiration site. | [Official source](https://feather.computer) |
 | FigmaForMotion | Editable Figma templates for motion and interaction concepts. | [Official source](https://figmaformotion.com) |
+| Forge UI | Copy-paste UI blocks powered by Motion and GSAP. | [Official source](https://forgeui.in) |
 | GitSkins | Templates and generator for GitHub profile READMEs. | [Official source](https://www.gitskins.com) |
 | Godly.design | Curated web and app design inspiration. | [Official source](https://godly.design) |
 | GSAP | JavaScript animation library for the web. | [Official source](https://gsap.com) |
@@ -180,17 +186,21 @@ The resources from the reel-radar directories and `ai-tools`, grouped by primary
 | Iconly | Icon library with flat, animated, and 3D sets plus a Figma plugin. | [Official source](https://iconly.pro) |
 | Impeccable | Design skill and checks for AI-built frontends. | [Official source](https://github.com/pbakaus/impeccable) |
 | Inspira UI | Animated Vue and Nuxt component collection. | [Official source](https://github.com/unovue/inspira-ui) |
+| Konva | HTML5 canvas framework for interactive graphics and design editors. | [Official source](https://github.com/konvajs/konva) |
 | Lenis | Smooth scrolling library for web animation work. | [Official source](https://github.com/darkroomengineering/lenis) |
 | logo-design-skill | Agent skill for logo design from brief to finished SVG files. | [Official source](https://github.com/kaankiziltug/logo-design-skill) |
 | Logol | Online maker that animates uploaded logos. | [Official source](https://logol.com/design/animated-logo) |
+| Lottie Web | Renders After Effects animations natively on web and mobile. | [Official source](https://github.com/airbnb/lottie-web) |
 | Lucide | Open icon library. | [Official source](https://lucide.dev) |
 | Meng To | Interactive portfolio and illustrated design site. | [Official source](https://mengto.com) |
 | Mike Barton's portfolio | Interactive portfolio used as a design reference. | [Official source](https://www.mikes.cv) |
 | Motion | Animation library for React, JavaScript, and Vue. | [Official source](https://motion.dev) |
 | Motion Primitives | Animated React UI components. | [Official source](https://motion-primitives.com/docs) |
 | MotionSites.ai | Prompt gallery for animated and 3D websites. | [Official source](https://motionsites.ai) |
+| Ola | Smooth number-interpolation animation library. | [Official source](https://github.com/franciscop/ola) |
 | OpenDesign | Local-first agent-driven design workspace with CLI and desktop interfaces. | [Official source](https://github.com/nexu-io/open-design) |
 | OriginKit | Free animated component library for React and Framer with MCP access. | [Official source](https://www.originkit.dev) |
+| Proton | JavaScript particle animation library. | [Official source](https://github.com/drawcall/Proton) |
 | React Bits | Free library of animated React components and backgrounds, installable through shadcn. | [Official source](https://reactbits.dev) |
 | ReactDrops | React component collection, including animated logo effects. | [Official source](https://reactdrops.dev) |
 | Refero Styles | AI-readable design-system references from real websites. | [Official source](https://styles.refero.design) |
@@ -199,17 +209,24 @@ The resources from the reel-radar directories and `ai-tools`, grouped by primary
 | screenshot-to-code | Creates prototype frontend code from screenshots and mockups. | [Official source](https://github.com/abi/screenshot-to-code) |
 | scroll-world | Skill for generating scrollable 3D website scenes. | [Official source](https://github.com/oso95/scroll-world) |
 | Shader Gradient | Configurable animated gradient tool and code. | [Official source](https://shadergradient.co) |
+| Shifty | Small, fast TypeScript tweening engine with easing. | [Official source](https://github.com/jeremyckahn/shifty) |
 | SVG.js | Lightweight library for manipulating and animating SVG. | [Official source](https://github.com/svgdotjs/svg.js) |
 | Swishy | Web app for UI-element animations from templates. | [Official source](https://swishy.ai) |
 | Taste Skill | Frontend design guidance for coding agents. | [Official source](https://github.com/Leonxlnx/taste-skill) |
 | The Bézier Game | Interactive pen-tool practice. | [Official source](https://bezier.method.ac) |
 | ThreeUI | Three.js components, shaders, and web templates. | [Official source](https://threeui.com) |
 | Transitions.dev | Copyable UI transitions. | [Official source](https://transitions.dev) |
+| TweenJS | Tweening and animation library from the CreateJS suite. | [Official source](https://github.com/CreateJS/TweenJS) |
+| Two.js | Renderer-agnostic 2D drawing API for the web. | [Official source](https://github.com/jonobr1/two.js) |
+| UI Lora | One component library for web and mobile. | [Official source](https://uilora.com) |
+| Uiverse | Large community library of free open-source UI elements. | [Official source](https://uiverse.io) |
+| Vengeance UI | Animated React components, open source per post. | [Official source](https://vengeanceui.com) |
 | Vercel Web Interface Guidelines | Reference for interface usability, accessibility, and performance. | [Official source](https://github.com/vercel-labs/web-interface-guidelines) |
 | Vue Bits | Free animated Vue component library. | [Official source](https://vue-bits.dev) |
 | Watermelon UI | Copyable React components, blocks, and dashboards. | [Official source](https://ui.watermelon.sh) |
 | WithAnimation | Pre-built SwiftUI animations and components with copy-paste code. | [Official source](https://withanimation.app) |
 | WebGradients | Gradient collection with CSS and design-file formats. | [Official source](https://github.com/itmeo/webgradients) |
+| Zdog | Designer-friendly pseudo-3D engine for canvas and SVG. | [Official source](https://github.com/metafizzy/zdog) |
 
 ## 3D worlds, models, and asset libraries
 
@@ -223,6 +240,7 @@ The resources from the reel-radar directories and `ai-tools`, grouped by primary
 | image-blaster | Image-to-3D-world skillset for Claude. | [Official source](https://github.com/neilsonnn/image-blaster) |
 | img2threejs | Generates procedural Three.js model code from a reference image. | [Official source](https://github.com/img2threejs/img2threejs) |
 | Intangible | Browser-based AI 3D studio with prompt-to-scene and camera control. | [Official source](https://www.intangible.ai) |
+| LUME | GPU-powered 3D scenes written as HTML elements. | [Official source](https://github.com/lume/lume) |
 | MANI Engine | AI spatial/world creation engine; not tested with wedding references. | [Official source](https://maniengine.com) |
 | Meshy | Text/image-to-3D model generation; tested with wedding references. | [Official source](https://www.meshy.ai) |
 | Mint | Generates and edits 3D models from prompts and images; tested with wedding references. | [Official source](https://mint.gg) |
@@ -250,11 +268,14 @@ The resources from the reel-radar directories and `ai-tools`, grouped by primary
 
 | Name | Description | Link |
 |---|---|---|
+| anidoodle | Art and animation written as code: illustrations, loops, web art, launch videos. | [Official source](https://github.com/alexgreensh/anidoodle) |
 | Animos | Templates that animate app screenshots and media into showcase videos. | [Official source](https://animos.app) |
 | ArtCraft | Crafting engine for artists, designers, and filmmakers. | [Official source](https://github.com/storytold/artcraft) |
 | Auto-Editor | Cuts silent or less interesting video/audio sections. | [Official source](https://github.com/WyattBlue/auto-editor) |
+| AutoClip | Open-source AI desktop clipper: long videos into shorts with subtitles and covers. | [Official source](https://github.com/zhouxiaoka/autoclip) |
 | AutoShorts | Local-first long-video/audio to short-clip editor. | [Official source](https://github.com/JayWebtech/autoshorts) |
 | Bang Motion | Agent skill with rules and templates for motion graphics, for Claude Code, Codex, Gemini CLI, and Cursor. | [Official source](https://github.com/bangtutorial/bang-motion) |
+| Bloop | Free motion-animation templates for your images. | [Official source](https://bloop.wtf) |
 | brag | Agent skill that makes a short project launch video. | [Official source](https://github.com/latent-spaces/brag) |
 | Cap | Open-source screen recording and sharing app. | [Official source](https://github.com/CapSoftware/Cap) |
 | code-animation-prompts | 341 code-animation styles as a Claude Code/Codex skill; docs mostly Chinese; no-resale license. | [Official source](https://github.com/XiaoyeCodes/code-animation-prompts) |
@@ -268,7 +289,9 @@ The resources from the reel-radar directories and `ai-tools`, grouped by primary
 | FreeMoCap | Markerless 3D motion capture from ordinary cameras. | [Official source](https://github.com/freemocap/freemocap) |
 | FreeVideo | Local MiniMax H3 video generation inside ComfyUI on consumer GPUs. | [Official source](https://github.com/FlashML-org/FreeVideo) |
 | Friction | Open-source 2D motion-graphics and animation tool. | [Official source](https://github.com/friction2d/friction) |
+| gifenc | Fast GIF encoding library. | [Official source](https://github.com/mattdesl/gifenc) |
 | Google Flow | AI filmmaking and creative workspace. | [Official source](https://flow.google.com) |
+| huashu-art-motion | Agent skill animating artwork in 35 art styles with 9 narration grammars. | [Official source](https://github.com/alchaincyf/huashu-art-motion) |
 | huashu-motion | Agent skill that has a coding agent make short product launch films, with a click-to-edit browser editor. | [Official source](https://github.com/alchaincyf/huashu-motion) |
 | Hyperframes | Turns HTML and CSS compositions into rendered videos. The team's HyperFrames Studio editor ([hyperframes.dev](https://www.hyperframes.dev)) is a macOS app. | [Official source](https://hyperframes.heygen.com) |
 | Hypit | Reconstructs reference videos as editable AI workflows. | [Official source](https://github.com/hypit-ai/hypit) |
@@ -277,6 +300,7 @@ The resources from the reel-radar directories and `ai-tools`, grouped by primary
 | Krea 2 | Image model with published inference code and separately licensed weights. | [Official source](https://github.com/krea-ai/krea-2) |
 | lemo-opuscar | Film-style toolbox for Claude Code with 99 ready-made styles. | [Official source](https://github.com/lemomo-ai/lemo-opuscar) |
 | Maestro | Fully local AI video, image, and music studio with director mode. | [Official source](https://github.com/Blizaine/Maestro) |
+| Manim | Community-maintained Python engine for mathematical and explainer animation. | [Official source](https://github.com/ManimCommunity/manim) |
 | MoneyPrinterTurbo | Automated short-video generation from a topic. | [Official source](https://github.com/harry0703/MoneyPrinterTurbo) |
 | Motion Canvas | TypeScript library and editor for code-driven animated videos. | [Official source](https://motioncanvas.io) |
 | Motion Skills | Installable agent skills for motion and video work. | [Official source](https://github.com/iart-ai/motion-skills) |
@@ -294,6 +318,7 @@ The resources from the reel-radar directories and `ai-tools`, grouped by primary
 | pic-smaller | In-browser batch image compression and conversion. | [Official source](https://github.com/joye61/pic-smaller) |
 | Postiz | Social-media scheduling and publishing platform. | [Official source](https://github.com/gitroomhq/postiz-app) |
 | Recordly | Cross-platform screen recorder and editor. | [Official source](https://github.com/webadderallorg/Recordly) |
+| RedInk | One-stop Xiaohongshu/RedNote image-and-text generator. | [Official source](https://github.com/HisMax/RedInk) |
 | Remotion | Programmatic video creation in React; official agent skills install with `npx skills add remotion-dev/skills`. | [Official source](https://github.com/remotion-dev/remotion) |
 | Screen Studio | macOS screen recorder with automatic zoom and effects. | [Official source](https://screen.studio) |
 | Screenize | macOS recorder/editor with cursor effects; development paused. | [Official source](https://github.com/syi0808/screenize) |
@@ -312,6 +337,7 @@ The resources from the reel-radar directories and `ai-tools`, grouped by primary
 | Agentic Inbox | AI email client running on Cloudflare Workers. | [Official source](https://github.com/cloudflare/agentic-inbox) |
 | Anarlog (formerly Hyprnote) | Local-first meeting notes and transcription app. | [Official source](https://github.com/fastrepl/anarlog) |
 | anydoc | Converts common document formats to Markdown. | [Official source](https://github.com/firecrawl/anydoc) |
+| designed-to-scale | Interactive system-design lessons with visual simulations; personal Vercel deploy. | [Official source](https://designed-to-scale.vercel.app) |
 | Guizang PPT Skill | Agent skill and templates for HTML slide decks. | [Official source](https://github.com/op7418/guizang-ppt-skill) |
 | Handy | Offline speech-to-text dictation app. | [Official source](https://github.com/cjpais/Handy) |
 | Index 0 | Local-first DSA practice, mock interviews, and system-design coach. | [Official source](https://www.index-0.in) |
@@ -319,9 +345,11 @@ The resources from the reel-radar directories and `ai-tools`, grouped by primary
 | MarkItDown | Converts files and Office documents to Markdown. | [Official source](https://github.com/microsoft/markitdown) |
 | Mimik | Browser extension that records workflows as annotated guides. | [Official source](https://github.com/westpoint-io/mimik) |
 | MinerU | Parses PDF and Office documents into structured Markdown or JSON. | [Official source](https://github.com/opendatalab/MinerU) |
+| MuMuAINovel | AI novel-writing assistant: outlines, characters, chapters; posted as MooMoo AI Novel. | [Official source](https://github.com/xiamuceer-j/MuMuAINovel) |
 | ppt-master | Turns documents or topics into native, editable PowerPoint decks. | [Official source](https://github.com/hugohe3/ppt-master) |
 | Slide-maker | Skill turning papers, code, and docs into editable PPTX. | [Official source](https://github.com/addsumtech/slides_maker) |
 | SlopMonster | Agent skill that scores and rewrites AI-writing patterns. | [Official source](https://github.com/ItsssssJack/SlopMonster) |
+| Tabworthy | Curated discovery library of 564 hand-picked useful websites. | [Official source](https://tabworthy.pages.dev) |
 | Unlimited-OCR | Research OCR model for long-form document parsing. | [Official source](https://github.com/baidu/Unlimited-OCR) |
 
 ## Security and OSINT
@@ -350,6 +378,7 @@ The resources from the reel-radar directories and `ai-tools`, grouped by primary
 | claude-trading-skills | Claude Code skills for equity analysis and trading research. | [Official source](https://github.com/tradermonty/claude-trading-skills) |
 | Fincept Terminal | Financial research and market analytics desktop app. | [Official source](https://github.com/Fincept-Corporation/FinceptTerminal) |
 | Finnhub | Financial market-data API. | [Official source](https://finnhub.io) |
+| First Customer Finder | Codex skill finding evidence-backed first customers from public signals. | [Official source](https://github.com/Kappaemme-git/codex-first-customer-finder-skill) |
 | Invoice Builder | Desktop invoicing and quotation app with PDF export. | [Official source](https://github.com/piratuks/invoice-builder) |
 | OpenStock | Self-hostable stock tracker with watchlists, alerts, and charts. | [Official source](https://github.com/Open-Dev-Society/OpenStock) |
 | Sure | Self-hosted personal-finance dashboard; community fork of Maybe. | [Official source](https://github.com/we-promise/sure) |
@@ -368,8 +397,9 @@ The resources from the reel-radar directories and `ai-tools`, grouped by primary
 - 2026-11-03 additions: 10 rows from the Instagram "ai" collection (12 posts), each link checked that day: Bang Motion, huashu-motion, Motion Canvas, anime.js, Rive, React Bits, ReactDrops, Satori, NectarLink, tapflow. Kept duplicates were not re-added: Remotion (row now notes its agent skills), GSAP, Three.js, React Three Fiber, FFmpeg, GitSkins, VoiceStudio, and HyperFrames Studio (noted on the Hyperframes row).
 - Unnamed reel demos and offers without a verifiable project URL are excluded. The separate Hyperframes website/repository, pic-smaller web app/repository, Agency Agents app/repository, and Free LLM API service/router are represented by one main row each to avoid duplicates.
 - 2026-11-20 additions: 48 rows from the Instagram "ai" collection (19 posts, all saved after the
-  2026-11-03 run); every link checked that day. Provenance, discards and flags live in
-  `insta-saved-candidates-2026-11-20.md`. Kept duplicates were not re-added: ChatGPT, Google Flow,
+  2026-11-03 run); every link checked that day. Provenance, discards and flags were recorded in
+  `insta-saved-candidates-2026-11-20.md` (review file deleted 2026-11-25 at Asim's request;
+  preserved in git history, post ledger below). Kept duplicates were not re-added: ChatGPT, Google Flow,
   anime.js, VoiceStudio, Hyperframes, Hallmark, colibri, Paperclip, diagram-design, ECC, Alibaba
   Open Code Review, Remotion, FFmpeg, Whisper, yt-dlp. Discarded on review: T3 Code, OpenMausBot,
   pinchtab, VERT, BambooAI, antialgorithm, founder-skill, claude-mem, ggml, chrome-devtools-mcp,
@@ -379,6 +409,22 @@ The resources from the reel-radar directories and `ai-tools`, grouped by primary
   request after an initial misidentification as Hactor00/Flux was corrected. Still excluded: two
   DM-gated offers without public URLs, and romspedia.com (ROM copyright caution, no fitting
   category).
+- 2026-11-25 additions: 28 rows from the Instagram "ai" collection (12 new posts; the 19 posts of
+  the 2026-11-20 run were still saved, and all 31 were unsaved after capture, leaving the
+  collection empty). Every link checked that day; uiverse.io returned 403 to the automated
+  request but was verified live in the logged-in browser. Provenance and flags were recorded in
+  `insta-saved-candidates-2026-11-25.md` (review file deleted 2026-11-25 at Asim's request;
+  post ledger below). Kept duplicates not re-added: Paperclip, Motion Canvas,
+  anime.js, Three.js, Motion, Remotion (incl. remotion-dev/skills), Scrapling, CLI-Anything,
+  OpenHands, lemo-opuscar, plus Animate UI and brag, found already rostered at merge time.
+  Discarded on review: Zed, Blender (already in Asim's workflows), PersonaLive. Godot added
+  under developer tools (no games category; placed rather than parked). Standing rule from
+  Asim (2026-11-25): every identified candidate enters the roster unless Asim discards it;
+  agent-side parking for category fit or caution is not allowed. UI Lora was DM-gated in entry 109
+  (2026-10-20) but now has a public site, added per the keep-all-else decision. "MooMoo AI Novel"
+  resolved to xiamuceer-j/MuMuAINovel; the Manim row uses ManimCommunity/manim (3b1b/manim is the
+  original engine); the AutoClip row links the main repo (the post card showed autoclip_mvp).
+  Still excluded: david_knowsai's six-skill animation pack (DM-gated, no public URL).
 
 ## Reel-radar provenance
 
@@ -406,6 +452,15 @@ preserves their remaining value so the folders can be deleted.
   video site — never identified), 108 (premium-website tools list — comment-gated), 109
   (UILORA, AnimMaster Lib — DM-gated), 112 (meme reel).
 - Collection "ai" run (2026-11-03) — https://www.instagram.com/asim.merchant/saved/ai/1633047141635812/ — post IDs: DfKJNWvjPgg, DfMuqjCJcAy, DfE9KLxsFmE, Dep83b7oDEb, Dey7OjuJ7pF, De7BoEPNeAy, DeyQg57pIvw, DfDzk-FNaYi, DbtEt6ZC1GJ, De1Ix4RknSK, De1zlGniBQp, DetCTmToK82. Not kept: Mercury Agent + Optimus, Orca, Mochiboard (macOS), the Android TV debloat prompt ("Your TV, Your Way." Google Doc), The Creator Stack (@pauloshimas, no public link), Gemini Omni, and 72pt (creator's own app ad). Antonio's "20 repos" reel showed only 10; the rest are comment-gated.
+- Collection "ai" run (2026-11-20) — post IDs: DfYJGHxKsL2, Df4BK1ShowU, Df5N1ZpiF0x, DdTPR-om7s9,
+  DfPZC9Ezhnx, DfY3CZ_BkXd, Df2UeUiRf2m, Df2MObBNaak, Df2JxUokRLr, DfcHHWIiUUt, Df0GmtOEoVy,
+  DfZvGWOE2bX, DfstM-DG7Zc, De65u_WmjVk, DfXCy7XMscp, Dd0m6tuM2xF, DdJTnquoEWm, DfKFK7RJdjl,
+  Deoj5t7D1Zt. 48 rows merged that day; discards and flags in the 2026-11-20 verification note
+  above. Ledger preserved here so the review file can be deleted without losing run state.
+- Collection "ai" run (2026-11-25) — post IDs: DgFgNA4N0Ux, DgGHCjZIZtW, Dfaxaa8m0nl, DftjM00yJQy,
+  DfdFI5wh9Vy, DfNBVUroUTO, DgAg10mowQx, Df9qNfxxuuu, DgAjlA9y7-e, DfcPeMXxlos, DfrvfXJhGFB,
+  Df9lyMjzqFs. All 31 saved posts (the 19 from 2026-11-20 plus these 12) were unsaved after
+  capture; the collection was re-enumerated and verified empty.
 - Claim corrections worth remembering: OriginKit is ~250+ components (the "600+, largest
   library" post claim was marketing); Motion Primitives was ~22.6k stars when vetted; the
   "54k stars" VoiceStudio post figure was stale (~78k at vetting); Hypit uses a custom
